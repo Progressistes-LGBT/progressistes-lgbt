@@ -1,0 +1,57 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  
+  padding: 20px 0;
+  margin-bottom: 5px;
+
+  img {
+    max-width: 85px;
+  }
+
+  a {
+    color: black;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.8px;
+
+    &:hover {
+      color: $purple;
+    }
+  }
+
+  > div {
+    flex-grow: 1;
+  }
+
+  &__l-menu {
+    a {
+      margin-right: 15px;
+      margin-top: 12px;
+      display: inline-block;
+    }
+  }
+
+  &__logo {
+    text-align: center;
+    @include h1;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #777;
+    letter-spacing: 0.8px;
+
+    > div {
+      margin-top: 10px;
+    }
+  }
+
+  &__r-menu {
+    display: flex;
+    justify-content: flex-end;
+
+    a {
+      @include button;
+    }
+  }
+}

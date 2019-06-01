@@ -1,17 +1,24 @@
 import Link from 'next/link';
 
-const linkStyle = {
-  marginRight: 15
-};
-
 const Header = () => (
-  <div>
-    <Link href="/mission">
-      <a style={linkStyle}>Mission</a>
-    </Link>
-    <Link href="/equipe">
-      <a style={linkStyle}>Équipe</a>
-    </Link>
+  <div className="header">
+    <div className="header__l-menu">
+      <Link href="/mission">
+        <a>Mission</a>
+      </Link>
+      <Link href="/equipe">
+        <a>Équipe</a>
+      </Link>
+    </div>
+    <div className="header__logo">
+      <img src="/static/logo.svg" />
+      <div>Progressistes LGBT+</div>
+    </div>
+    <div className="header__r-menu">
+      <Link href="https://marineboudeau.com">
+        <a target="_blank">Donner</a>
+      </Link>
+    </div>
   </div>
 );
 

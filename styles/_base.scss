@@ -1,9 +1,21 @@
 body {
-  font-family: 'Montserrat', sans-serif;
-  // font-family: 'Raleway', sans-serif;
-  // font-family: 'Nunito', sans-serif;
+  @include body;
 }
 
 h1, h2, h3, h4 {
   font-family: 'Ubuntu', sans-serif;
+  margin: 0;
+}
+
+h1 {
+  @include h1;
+}
+
+a {
+  text-decoration: none;
+  transition: .2s all;
+}
+
+p {
+  margin: 0
 }
