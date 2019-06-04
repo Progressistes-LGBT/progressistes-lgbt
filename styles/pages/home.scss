@@ -35,5 +35,36 @@
     @include button;
     font-size: 14px;
     background: $pink;
+    margin-bottom: 20px;
   }
+
+  > div > a {
+    margin: 10px 5px;
+
+    path {
+      fill : #b1b1b1;
+    }
+
+    &:hover path {
+      fill: $pink;
+    }
+  }
+}
+
+.home__causes {
+  margin-top: 80px;
+
+  > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+
+    > div {
+      width: 30%;
+      margin-bottom: 40px;
+    }
+  }
+}
+.home__causes > div {
 }

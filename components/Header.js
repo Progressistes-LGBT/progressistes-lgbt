@@ -3,6 +3,9 @@ import Link from 'next/link';
 const Header = () => (
   <div className="header">
     <div className="header__l-menu">
+      <Link href="/">
+        <a>Accueil</a>
+      </Link>
       <Link href="/mission">
         <a>Mission</a>
       </Link>

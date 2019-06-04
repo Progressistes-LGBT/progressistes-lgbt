@@ -12,6 +12,7 @@ export default function Index() {
     <Layout>
       <Head>
         <title>Progressistes LGBT+</title>
+        <link rel="shortcut icon" href="static/favicon.ico" />
       </Head>
 
       <div className="home__banner">
@@ -20,6 +21,7 @@ export default function Index() {
           <p>Progressistes LGBT+ combat contre les discriminations sur l’orientation sexuelle et l’identité de genre.</p>
         </div>
       </div>
+
       <div className="home__social">
         <Link href="/mission">
           <a target="_blank" className="home__social__join">Recevoir notre newsletter</a>
@@ -37,6 +39,34 @@ export default function Index() {
           <Link href="/">
             <a title="Sur Telegram"><Telegram /></a>
           </Link>
+        </div>
+      </div>
+
+      <div className="home__causes">
+        <h2>Nos combats</h2>
+        <div>
+          <div>
+            <h3>PMA</h3>
+            <p>Ouvrir la procréation médicalement assistée gratuitement à toutes les femmes, peu importe leur statut matrimonial ou leur sexualité.</p>
+          </div>
+          <div>
+            <h3>PMA</h3>
+            <p>Ouvrir la procréation médicalement assistée gratuitement à toutes les femmes, peu importe leur statut matrimonial ou leur sexualité.</p>
+          </div>
+          <div>
+            <h3>PMA</h3>
+            <p>Ouvrir la procréation médicalement assistée gratuitement à toutes les femmes, peu importe leur statut matrimonial ou leur sexualité.</p>
+          </div>
+          <div>
+            <h3>PMA</h3>
+            <p>Ouvrir la procréation médicalement assistée gratuitement à toutes les femmes, peu importe leur statut matrimonial ou leur sexualité.</p>
+          </div>
+          <div>
+            <h3>PMA</h3>
+            <p>Ouvrir la procréation médicalement assistée gratuitement à toutes les femmes, peu importe leur statut matrimonial ou leur sexualité.</p>
+          </div>
+          <div>
+          </div>
         </div>
       </div>
     </Layout>
