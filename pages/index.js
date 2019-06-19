@@ -16,9 +16,18 @@ export default function Index() {
       </Head>
 
       <div className="home__banner">
-        <div>
-          <h1>Pour l’égalité des droits <span>de tou.te.s</span></h1>
-          <p>Progressistes LGBT+ combat contre les discriminations sur l’orientation sexuelle et l’identité de genre.</p>
+        <div className="home__banner__title">
+          <h1>Bienvenue sur le portail <span>des Progressistes LGBT+</span></h1>
+          <p>Pour l’égalité des droits de tou.te.s : Progressistes LGBT+ combat les discriminations sur l’orientation sexuelle et l’identité de genre.</p>
+        </div>
+        <div className="home__banner__rainbow">
+          <div className="rainbow-pink"></div>
+          <div className="rainbow-orange"></div>
+          <div className="rainbow-yellow"></div>
+          <div className="rainbow-green"></div>
+          <div className="rainbow-sky"></div>
+          <div className="rainbow-blue"></div>
+          <div className="rainbow-purple"></div>
         </div>
       </div>
 
@@ -47,7 +56,7 @@ export default function Index() {
         <div>
           <div>
             <h3>PMA</h3>
-            <p>Ouvrir la procréation médicalement assistée gratuitement à toutes les femmes, peu importe leur statut matrimonial ou leur sexualité.</p>
+            <p>Ouvrir la procréation médicalement assistée à tou.te.s, et qu'elle soit remboursée.</p>
           </div>
           <div>
             <h3>PMA</h3>
@@ -56,16 +65,6 @@ export default function Index() {
           <div>
             <h3>PMA</h3>
             <p>Ouvrir la procréation médicalement assistée gratuitement à toutes les femmes, peu importe leur statut matrimonial ou leur sexualité.</p>
-          </div>
-          <div>
-            <h3>PMA</h3>
-            <p>Ouvrir la procréation médicalement assistée gratuitement à toutes les femmes, peu importe leur statut matrimonial ou leur sexualité.</p>
-          </div>
-          <div>
-            <h3>PMA</h3>
-            <p>Ouvrir la procréation médicalement assistée gratuitement à toutes les femmes, peu importe leur statut matrimonial ou leur sexualité.</p>
-          </div>
-          <div>
           </div>
         </div>
       </div>

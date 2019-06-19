@@ -1,14 +1,16 @@
-.home__banner{
-  background-image: url('/static/img/home-purple.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  min-height: 490px;
+.home__banner {
+  // background-image: url('/static/img/home-purple.png');
+  // background-repeat: no-repeat;
+  // background-position: center;
+  background-color: #fbfbfb;
+  height: 490px;
 
   display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 
-  > div {
+  &__title {
     padding: 30px 50px 50px;
   }
 
@@ -16,11 +18,43 @@
     max-width: 600px;
   }
 
-  color: white;
-
   span {
-    color: $pink;
     display: block;
+  }
+
+  &__rainbow {
+    height: 100%;
+    box-sizing: border-box;
+    padding: 0;
+    display: flex;
+
+    > div {
+      width: 34px;
+    }
+
+    .rainbow {
+      &-pink {
+        background: $pink;
+      }
+      &-orange {
+        background: $orange;
+      }
+      &-yellow {
+        background: $yellow;
+      }
+      &-green {
+        background: $green;
+      }
+      &-sky {
+        background: $sky;
+      }
+      &-blue {
+        background: $blue;
+      }
+      &-purple {
+        background: $purple;
+      }
+    }
   }
 }
 

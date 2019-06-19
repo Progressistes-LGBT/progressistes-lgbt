@@ -1,10 +1,11 @@
 // Colors
 $pink: #FF5870;
-$purple: #3145CD;
 $orange: #FF9828;
-$green: #0CD283;
-$blue: #2ABAFF;
 $yellow: #EEDA1B;
+$green: #0CD283;
+$sky: #2ABAFF;
+$blue: #3467B0;
+$purple: #6A76B9;
 
 // Text
 @mixin h1 {
@@ -13,6 +14,7 @@ $yellow: #EEDA1B;
   font-size: 54px;
   line-height: 1;
   margin-bottom: 10px;
+  letter-spacing: -.5px;
 }
 
 @mixin h2 {
@@ -22,7 +24,7 @@ $yellow: #EEDA1B;
 
 @mixin h3 {
   font-size: 24px;
-  color: $purple;
+  color: $blue;
 }
 
 @mixin body {
@@ -33,7 +35,7 @@ $yellow: #EEDA1B;
 }
 
 @mixin button {
-  background: $purple;
+  background: $sky;
   color: white;
   text-transform: uppercase;
   border-radius: 50px;
@@ -41,7 +43,7 @@ $yellow: #EEDA1B;
   letter-spacing: 0.8px;
 
   &:hover {
-    background: $blue;
+    background: $orange;
     color: white;
   }
 }
