@@ -42,6 +42,10 @@
     color: #777;
     letter-spacing: 0.8px;
 
+    @media (max-width: $mobile) {
+      font-size: 12px;
+    }
+
     > div {
       margin-top: 10px;
     }

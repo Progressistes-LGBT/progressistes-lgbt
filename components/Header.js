@@ -2,6 +2,7 @@ import Link from 'next/link';
 
 const Header = () => (
   <div className="header">
+    {/*
     <div className="header__l-menu">
       <Link href="/">
         <a>Accueil</a>
@@ -13,15 +14,18 @@ const Header = () => (
         <a>Équipe</a>
       </Link>
     </div>
+    */}
     <div className="header__logo">
       <img src="/static/logo.svg" />
       <div>Progressistes LGBT+</div>
     </div>
+    {/*
     <div className="header__r-menu">
-      <Link href="https://marineboudeau.com">
+      <Link href="/">
         <a target="_blank">Donner</a>
       </Link>
     </div>
+    */}
   </div>
 );
 

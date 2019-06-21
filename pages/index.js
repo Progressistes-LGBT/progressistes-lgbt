@@ -32,9 +32,10 @@ export default function Index() {
       </div>
 
       <div className="home__social">
-        <Link href="/mission">
+        <Link href="http://eepurl.com/gvyCB9">
           <a target="_blank" className="home__social__join">Recevoir notre newsletter</a>
         </Link>
+        {/*
         <div>
           <Link href="/">
             <a title="Sur Instagram"><Instagram /></a>
@@ -49,8 +50,10 @@ export default function Index() {
             <a title="Sur Telegram"><Telegram /></a>
           </Link>
         </div>
+        */}
       </div>
 
+      {/*
       <div className="home__causes">
         <h2>Nos combats</h2>
         <div>
@@ -68,6 +71,7 @@ export default function Index() {
           </div>
         </div>
       </div>
+      */}
     </Layout>
   );
 }

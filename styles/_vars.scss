@@ -7,14 +7,20 @@ $sky: #2ABAFF;
 $blue: #3467B0;
 $purple: #6A76B9;
 
+$mobile : 480px;
+
 // Text
 @mixin h1 {
-  // font-family: 'Boing';
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Boing', 'Ubuntu', sans-serif;
   font-size: 54px;
   line-height: 1;
   margin-bottom: 10px;
   letter-spacing: -.5px;
+
+  @media (max-width: $mobile) {
+    font-size: 32px;
+    line-height: 1.2;
+  }
 }
 
 @mixin h2 {
