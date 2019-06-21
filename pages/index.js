@@ -35,22 +35,20 @@ export default function Index() {
         <Link href="http://eepurl.com/gvyCB9">
           <a target="_blank" className="home__social__join">Recevoir notre newsletter</a>
         </Link>
-        {/*
         <div>
-          <Link href="/">
-            <a title="Sur Instagram"><Instagram /></a>
+          <Link href="https://twitter.com/progressistLGBT">
+            <a target="_blank" title="Sur Twitter"><Twitter /></a>
           </Link>
-          <Link href="/">
-            <a title="Sur Facebook"><Facebook /></a>
+          <Link href="https://facebook.com/progressistesLGBT">
+            <a target="_blank" title="Sur Facebook"><Facebook /></a>
           </Link>
-          <Link href="/">
-            <a title="Sur Twitter"><Twitter /></a>
+          <Link href="https://t.me/progressistesLGBT">
+            <a target="_blank" title="Sur Telegram"><Telegram /></a>
           </Link>
-          <Link href="/">
-            <a title="Sur Telegram"><Telegram /></a>
+          <Link href="https://instagram.com/progressistesLGBT">
+            <a target="_blank" title="Sur Instagram"><Instagram /></a>
           </Link>
         </div>
-        */}
       </div>
 
       {/*
